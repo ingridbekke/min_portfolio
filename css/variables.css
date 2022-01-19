@@ -1,0 +1,8 @@
+:root {
+  --ff-bodytext: "Inter", sans-serif;
+
+  -fs-400: 1.125rem;
+  --fs-600: clamp(1rem, 1rem + 6vw, 5rem);
+
+  --clr-pink: rgb(353, 100, 79);
+}

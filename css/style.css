@@ -1,0 +1,54 @@
+html {
+  font-size: 18px;
+}
+
+header {
+  position: fixed;
+  min-height: 80px;
+  width: 100%;
+  color: white;
+  background-color: tomato;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 2rem;
+  z-index: 5;
+  justify-content: space-between;
+  font-family: var(--ff-bodytext);
+  font-size: var(--fs-400);
+}
+.container {
+  background-color: rgba(255, 0, 0, 0.582);
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+
+  position: relative;
+}
+
+.container p {
+  padding: 5px;
+  color: white;
+}
+
+.main-menu-desktop ul {
+  display: flex;
+  list-style: none;
+  gap: 1.2rem;
+}
+
+.main-menu-desktop ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.main-menu-desktop ul li a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+@media screen and (min-width: 768px) {
+  .main-menu-desktop {
+    display: block;
+  }
+}
